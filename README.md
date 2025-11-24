@@ -11,6 +11,11 @@ We developed a **Hybrid Ensemble Model** that moves beyond simple "revenue scali
 
 ---
 
+## 1.1 Inference on Unseen Data (Judge Use)
+This repository now includes persisted model artifacts in the `models/` directory and an `test-on-unseen-data.ipynb` for running predictions on completely unseen entities.
+
+---
+
 ## 2. Visualizing the Logic
 We rejected "Black Box" models. Below is how our model makes decisions based on the physics of the problem.
 
