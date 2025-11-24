@@ -1,4 +1,4 @@
-# FitchGroup Codeathon '25 Submission
+# 🌎 CarbonScope AI - Intelligent Emissions Insights
 
 ## 1. Executive Summary
 
@@ -120,3 +120,6 @@ Our biggest remaining errors come from the **"Accounting vs. Reality"** conflict
 
 
 ---
+
+
+
