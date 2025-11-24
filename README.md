@@ -11,9 +11,9 @@ We developed a **Hybrid Ensemble Model** that moves beyond simple "revenue scali
 ---
 
 ## 1.1 Repository Layout Quick Reference
-- `Main-Notebook.ipynb` – Primary end-to-end workflow covering EDA, feature engineering, modeling, evaluation, and export.
-- `test-on-unseen-data.ipynb` – Inference notebook for running the trained ensemble on new judge-provided data.
-- `Supplemental Notebook.ipynb` – Additional evaluation scenarios and sanity checks complementing the main run.
+- `Main-Notebook.ipynb` – Main notebook which contains all feature engineering -> model training -> evaluation.
+- `test-on-unseen-data.ipynb` – Inference notebook for running the trained model on new data.
+- `Supplemental Notebook.ipynb` – This notebooks contains all our hypothesis and data analysis.
 - `data/` – Input CSVs (`train.csv`, `test.csv`, revenue distributions, environmental logs, SDG info).
 - `images/` – Visual assets referenced in the README (feature plots, tree logic diagrams, etc.).
 - `base notebooks/` – Default notebooks supplied by Fitch; retained for provenance and baseline comparison.
@@ -21,7 +21,6 @@ We developed a **Hybrid Ensemble Model** that moves beyond simple "revenue scali
 - `models/` – Persisted training artifacts (`*.joblib`, sector mappings, blend config) ready for inference.
 - `final_submission.csv` – Exported predictions ready for leaderboard submission.
 - `requirements.txt` – Python dependencies to recreate the environment.
-- `.git/` – Version control metadata (hidden when cloning via Git).
 
 ---
 
