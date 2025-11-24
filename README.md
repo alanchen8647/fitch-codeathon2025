@@ -1,4 +1,4 @@
-# 🌎CarbonScope AI - Intelligent Emissions Insights
+# 🌎 CarbonScope AI - Intelligent Emissions Insights
 
 ## 1. Executive Summary
 
@@ -115,5 +115,6 @@ Our biggest remaining errors come from the **"Accounting vs. Reality"** conflict
 
 
 ---
+
 
 
